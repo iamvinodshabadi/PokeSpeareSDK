@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB75F8B625B1FE6200B2A54A /* PokeSpeareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB75F8AC25B1FE6200B2A54A /* PokeSpeareSDK.framework */; };
+		FB75F8BB25B1FE6200B2A54A /* PokeSpeareSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8BA25B1FE6200B2A54A /* PokeSpeareSDKTests.swift */; };
+		FB75F8BD25B1FE6200B2A54A /* PokeSpeareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FB75F8AF25B1FE6200B2A54A /* PokeSpeareSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB75F8B725B1FE6200B2A54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB75F8A325B1FE6200B2A54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB75F8AB25B1FE6200B2A54A;
+			remoteInfo = PokeSpeareSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB75F8AC25B1FE6200B2A54A /* PokeSpeareSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PokeSpeareSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB75F8AF25B1FE6200B2A54A /* PokeSpeareSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokeSpeareSDK.h; sourceTree = "<group>"; };
+		FB75F8B025B1FE6200B2A54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB75F8B525B1FE6200B2A54A /* PokeSpeareSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeSpeareSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB75F8BA25B1FE6200B2A54A /* PokeSpeareSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeSpeareSDKTests.swift; sourceTree = "<group>"; };
+		FB75F8BC25B1FE6200B2A54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB75F8A925B1FE6200B2A54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB75F8B225B1FE6200B2A54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB75F8B625B1FE6200B2A54A /* PokeSpeareSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB75F8A225B1FE6200B2A54A = {
+			isa = PBXGroup;
+			children = (
+				FB75F8AE25B1FE6200B2A54A /* PokeSpeareSDK */,
+				FB75F8B925B1FE6200B2A54A /* PokeSpeareSDKTests */,
+				FB75F8AD25B1FE6200B2A54A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB75F8AD25B1FE6200B2A54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB75F8AC25B1FE6200B2A54A /* PokeSpeareSDK.framework */,
+				FB75F8B525B1FE6200B2A54A /* PokeSpeareSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB75F8AE25B1FE6200B2A54A /* PokeSpeareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FB75F8AF25B1FE6200B2A54A /* PokeSpeareSDK.h */,
+				FB75F8B025B1FE6200B2A54A /* Info.plist */,
+			);
+			path = PokeSpeareSDK;
+			sourceTree = "<group>";
+		};
+		FB75F8B925B1FE6200B2A54A /* PokeSpeareSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB75F8BA25B1FE6200B2A54A /* PokeSpeareSDKTests.swift */,
+				FB75F8BC25B1FE6200B2A54A /* Info.plist */,
+			);
+			path = PokeSpeareSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FB75F8A725B1FE6200B2A54A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB75F8BD25B1FE6200B2A54A /* PokeSpeareSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FB75F8AB25B1FE6200B2A54A /* PokeSpeareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB75F8C025B1FE6200B2A54A /* Build configuration list for PBXNativeTarget "PokeSpeareSDK" */;
+			buildPhases = (
+				FB75F8A725B1FE6200B2A54A /* Headers */,
+				FB75F8A825B1FE6200B2A54A /* Sources */,
+				FB75F8A925B1FE6200B2A54A /* Frameworks */,
+				FB75F8AA25B1FE6200B2A54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeSpeareSDK;
+			productName = PokeSpeareSDK;
+			productReference = FB75F8AC25B1FE6200B2A54A /* PokeSpeareSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB75F8B425B1FE6200B2A54A /* PokeSpeareSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB75F8C325B1FE6200B2A54A /* Build configuration list for PBXNativeTarget "PokeSpeareSDKTests" */;
+			buildPhases = (
+				FB75F8B125B1FE6200B2A54A /* Sources */,
+				FB75F8B225B1FE6200B2A54A /* Frameworks */,
+				FB75F8B325B1FE6200B2A54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB75F8B825B1FE6200B2A54A /* PBXTargetDependency */,
+			);
+			name = PokeSpeareSDKTests;
+			productName = PokeSpeareSDKTests;
+			productReference = FB75F8B525B1FE6200B2A54A /* PokeSpeareSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB75F8A325B1FE6200B2A54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "True Layer";
+				TargetAttributes = {
+					FB75F8AB25B1FE6200B2A54A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FB75F8B425B1FE6200B2A54A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = FB75F8A625B1FE6200B2A54A /* Build configuration list for PBXProject "PokeSpeareSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB75F8A225B1FE6200B2A54A;
+			productRefGroup = FB75F8AD25B1FE6200B2A54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB75F8AB25B1FE6200B2A54A /* PokeSpeareSDK */,
+				FB75F8B425B1FE6200B2A54A /* PokeSpeareSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB75F8AA25B1FE6200B2A54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB75F8B325B1FE6200B2A54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB75F8A825B1FE6200B2A54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB75F8B125B1FE6200B2A54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB75F8BB25B1FE6200B2A54A /* PokeSpeareSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB75F8B825B1FE6200B2A54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB75F8AB25B1FE6200B2A54A /* PokeSpeareSDK */;
+			targetProxy = FB75F8B725B1FE6200B2A54A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB75F8BE25B1FE6200B2A54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB75F8BF25B1FE6200B2A54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB75F8C125B1FE6200B2A54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PokeSpeareSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truelayer.PokeSpeareSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB75F8C225B1FE6200B2A54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PokeSpeareSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truelayer.PokeSpeareSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB75F8C425B1FE6200B2A54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PokeSpeareSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truelayer.PokeSpeareSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB75F8C525B1FE6200B2A54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PokeSpeareSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truelayer.PokeSpeareSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB75F8A625B1FE6200B2A54A /* Build configuration list for PBXProject "PokeSpeareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB75F8BE25B1FE6200B2A54A /* Debug */,
+				FB75F8BF25B1FE6200B2A54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB75F8C025B1FE6200B2A54A /* Build configuration list for PBXNativeTarget "PokeSpeareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB75F8C125B1FE6200B2A54A /* Debug */,
+				FB75F8C225B1FE6200B2A54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB75F8C325B1FE6200B2A54A /* Build configuration list for PBXNativeTarget "PokeSpeareSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB75F8C425B1FE6200B2A54A /* Debug */,
+				FB75F8C525B1FE6200B2A54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB75F8A325B1FE6200B2A54A /* Project object */;
+}
