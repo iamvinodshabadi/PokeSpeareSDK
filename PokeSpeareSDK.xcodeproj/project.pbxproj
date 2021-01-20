@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB3162B725B4B90000968C18 /* PokemonDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3162B525B4B90000968C18 /* PokemonDetailCell.swift */; };
+		FB3162B825B4B90000968C18 /* PokemonDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3162B625B4B90000968C18 /* PokemonDetailCell.xib */; };
 		FB75F8B625B1FE6200B2A54A /* PokeSpeareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB75F8AC25B1FE6200B2A54A /* PokeSpeareSDK.framework */; };
 		FB75F8BB25B1FE6200B2A54A /* PokeSpeareSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8BA25B1FE6200B2A54A /* PokeSpeareSDKTests.swift */; };
 		FB75F8BD25B1FE6200B2A54A /* PokeSpeareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FB75F8AF25B1FE6200B2A54A /* PokeSpeareSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB75F8CE25B1FEA700B2A54A /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8CB25B1FEA700B2A54A /* JSONParameterEncoder.swift */; };
+		FB75F8CF25B1FEA700B2A54A /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8CC25B1FEA700B2A54A /* URLParameterEncoding.swift */; };
+		FB75F8D025B1FEA700B2A54A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8CD25B1FEA700B2A54A /* ParameterEncoding.swift */; };
+		FB75F8D425B1FEB300B2A54A /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8D125B1FEB300B2A54A /* NetworkLogger.swift */; };
+		FB75F8D525B1FEB300B2A54A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8D225B1FEB300B2A54A /* Router.swift */; };
+		FB75F8D625B1FEB300B2A54A /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8D325B1FEB300B2A54A /* EndPointType.swift */; };
+		FB75F8D825B1FEBC00B2A54A /* PokeSpereEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8D725B1FEBC00B2A54A /* PokeSpereEndPoint.swift */; };
+		FB75F8DA25B1FEC500B2A54A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8D925B1FEC500B2A54A /* NetworkManager.swift */; };
+		FB75F8DD25B2077900B2A54A /* PokemonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F8DC25B2077900B2A54A /* PokemonDetails.swift */; };
+		FB75F91425B3644000B2A54A /* PokeSpeareSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F91325B3644000B2A54A /* PokeSpeareSDK.swift */; };
+		FBC21D4D25B3771300EDE79F /* PokemonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC21D4C25B3771300EDE79F /* PokemonModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +36,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB3162B525B4B90000968C18 /* PokemonDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailCell.swift; sourceTree = "<group>"; };
+		FB3162B625B4B90000968C18 /* PokemonDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonDetailCell.xib; sourceTree = "<group>"; };
 		FB75F8AC25B1FE6200B2A54A /* PokeSpeareSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PokeSpeareSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB75F8AF25B1FE6200B2A54A /* PokeSpeareSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokeSpeareSDK.h; sourceTree = "<group>"; };
 		FB75F8B025B1FE6200B2A54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB75F8B525B1FE6200B2A54A /* PokeSpeareSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeSpeareSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB75F8BA25B1FE6200B2A54A /* PokeSpeareSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeSpeareSDKTests.swift; sourceTree = "<group>"; };
 		FB75F8BC25B1FE6200B2A54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB75F8CB25B1FEA700B2A54A /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		FB75F8CC25B1FEA700B2A54A /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		FB75F8CD25B1FEA700B2A54A /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		FB75F8D125B1FEB300B2A54A /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		FB75F8D225B1FEB300B2A54A /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FB75F8D325B1FEB300B2A54A /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		FB75F8D725B1FEBC00B2A54A /* PokeSpereEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeSpereEndPoint.swift; sourceTree = "<group>"; };
+		FB75F8D925B1FEC500B2A54A /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FB75F8DC25B2077900B2A54A /* PokemonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetails.swift; sourceTree = "<group>"; };
+		FB75F91325B3644000B2A54A /* PokeSpeareSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeSpeareSDK.swift; sourceTree = "<group>"; };
+		FBC21D4C25B3771300EDE79F /* PokemonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB3162AA25B4B23400968C18 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FB3162B525B4B90000968C18 /* PokemonDetailCell.swift */,
+				FB3162B625B4B90000968C18 /* PokemonDetailCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		FB75F8A225B1FE6200B2A54A = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +106,9 @@
 		FB75F8AE25B1FE6200B2A54A /* PokeSpeareSDK */ = {
 			isa = PBXGroup;
 			children = (
+				FB75F91825B365E600B2A54A /* Public */,
+				FB75F8DB25B2075200B2A54A /* Model */,
+				FB75F8C625B1FE7500B2A54A /* Networking */,
 				FB75F8AF25B1FE6200B2A54A /* PokeSpeareSDK.h */,
 				FB75F8B025B1FE6200B2A54A /* Info.plist */,
 			);
@@ -84,6 +122,79 @@
 				FB75F8BC25B1FE6200B2A54A /* Info.plist */,
 			);
 			path = PokeSpeareSDKTests;
+			sourceTree = "<group>";
+		};
+		FB75F8C625B1FE7500B2A54A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FB75F8CA25B1FE9600B2A54A /* Manager */,
+				FB75F8C925B1FE8E00B2A54A /* EndPoint */,
+				FB75F8C825B1FE8800B2A54A /* Service */,
+				FB75F8C725B1FE8100B2A54A /* Encoding */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FB75F8C725B1FE8100B2A54A /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				FB75F8CB25B1FEA700B2A54A /* JSONParameterEncoder.swift */,
+				FB75F8CD25B1FEA700B2A54A /* ParameterEncoding.swift */,
+				FB75F8CC25B1FEA700B2A54A /* URLParameterEncoding.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		FB75F8C825B1FE8800B2A54A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FB75F8D325B1FEB300B2A54A /* EndPointType.swift */,
+				FB75F8D125B1FEB300B2A54A /* NetworkLogger.swift */,
+				FB75F8D225B1FEB300B2A54A /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FB75F8C925B1FE8E00B2A54A /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				FB75F8D725B1FEBC00B2A54A /* PokeSpereEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		FB75F8CA25B1FE9600B2A54A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FB75F8D925B1FEC500B2A54A /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FB75F8DB25B2075200B2A54A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB75F8DC25B2077900B2A54A /* PokemonDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB75F91825B365E600B2A54A /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				FB3162AA25B4B23400968C18 /* Cell */,
+				FB75F91925B365FC00B2A54A /* Model */,
+				FB75F91325B3644000B2A54A /* PokeSpeareSDK.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		FB75F91925B365FC00B2A54A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBC21D4C25B3771300EDE79F /* PokemonModels.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +259,7 @@
 				TargetAttributes = {
 					FB75F8AB25B1FE6200B2A54A = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					FB75F8B425B1FE6200B2A54A = {
 						CreatedOnToolsVersion = 11.5;
@@ -178,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3162B825B4B90000968C18 /* PokemonDetailCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +308,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB75F8D425B1FEB300B2A54A /* NetworkLogger.swift in Sources */,
+				FB75F8D025B1FEA700B2A54A /* ParameterEncoding.swift in Sources */,
+				FB3162B725B4B90000968C18 /* PokemonDetailCell.swift in Sources */,
+				FB75F8D825B1FEBC00B2A54A /* PokeSpereEndPoint.swift in Sources */,
+				FB75F8D625B1FEB300B2A54A /* EndPointType.swift in Sources */,
+				FB75F8DA25B1FEC500B2A54A /* NetworkManager.swift in Sources */,
+				FB75F91425B3644000B2A54A /* PokeSpeareSDK.swift in Sources */,
+				FB75F8D525B1FEB300B2A54A /* Router.swift in Sources */,
+				FBC21D4D25B3771300EDE79F /* PokemonModels.swift in Sources */,
+				FB75F8CF25B1FEA700B2A54A /* URLParameterEncoding.swift in Sources */,
+				FB75F8CE25B1FEA700B2A54A /* JSONParameterEncoder.swift in Sources */,
+				FB75F8DD25B2077900B2A54A /* PokemonDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +396,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -328,10 +454,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -340,6 +468,7 @@
 		FB75F8C125B1FE6200B2A54A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -352,17 +481,21 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.truelayer.PokeSpeareSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
 		FB75F8C225B1FE6200B2A54A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -375,17 +508,20 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.truelayer.PokeSpeareSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};
 		FB75F8C425B1FE6200B2A54A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PokeSpeareSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +539,7 @@
 		FB75F8C525B1FE6200B2A54A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PokeSpeareSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
